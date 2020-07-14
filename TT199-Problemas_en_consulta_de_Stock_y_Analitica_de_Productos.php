@@ -1,3 +1,4 @@
+<?php
 // Lambert: woo-init.php (includes/woo-init.php) edicion - line 319 - Web Chocolates Ignis Terra
 
 add_filter('woocommerce_short_description', 'cththemes_woo_product_short_description',1);
@@ -12,7 +13,7 @@ if(!function_exists('cththemes_woo_product_short_description')){
 			/*
 			$ret = '<h4 class="product-short-description-title">'._e('Quick Overview','lambert').'</h4>'.$des;
 			return $ret;
-			
+
 			?>
 			<h4 class="product-short-description-title"><?php _e('Quick Overview','lambert');?></h4>
 		<?php
