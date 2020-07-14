@@ -1,4 +1,5 @@
 add_filter('woocommerce_short_description', 'cththemes_woo_product_short_description',1);
+
 if(!function_exists('cththemes_woo_product_short_description')){
 	function cththemes_woo_product_short_description($des){
 
