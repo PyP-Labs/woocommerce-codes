@@ -1,3 +1,5 @@
+//Lambert: woo-init.php (includes/woo-init.php) edicion - line 319 - Web Chocolates Ignis Terra
+
 add_filter('woocommerce_short_description', 'cththemes_woo_product_short_description',1);
 
 if(!function_exists('cththemes_woo_product_short_description')){
